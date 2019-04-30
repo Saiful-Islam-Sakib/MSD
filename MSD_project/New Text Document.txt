@@ -1,0 +1,38 @@
+HCSR04 is an Ultrasonic ranging module which consists of a transmitter,receiver and control circuit. It has four pins for VCC, GND, Trigger and Echo.You can easily interface it with micrcontrollers and Arduino boards.
+
+The basic principle of work is:
+
+
+(1) Using IO trigger for at least 10us high level signal,
+(2) The Module automatically sends eight 40 kHz and detect whether there is a
+pulse signal back.
+(3) IF the signal back, through high level , time of high output IO duration is
+the time from sending ultrasonic to returning.
+Test distance = (high level time×velocity of sound (340M/S) / 2
+
+
+###############################################################################################################
+
+
+This module can drive either 2 DC motors or 1 Stepper motor at a time.
+
+ 
+
+This module is based on L298N,high voltage,high current dual full bridge driver which can be used to drive a DC motor and stepper motor, relay coil inductive load; using standard logic level signal control; having two enable control end allow or prohibit the work has a logic device power supply input terminal, in the case regardless of the input signal affect the internal logic circuit portion to operate at a low voltage; can be an external sense resistor, the amount of change in feedback to the control circuit. 
+
+This module integrates a built-in 5V power supply. When you drive voltage of 7V-35V can onboard 5V logic supply, do not input voltage when using onboard 5V power supply, the +5 V power supply interface, but leads to 5V voltage for external use
+When ENA is HIGH, IN1 IN2 control OUT1 OUT2
+When ENB is HIGH, IN3 IN4 control OUT3 OUT4
+
+
+
+Application:
+
+
+1: driving  stepper motor
+
+2: driving  brushed DC motor motor
+
+###################################################################################################################
+
+This gear motor wheel is perfect for your next robotics project. This gear motor is ideal for robotic car or line-tracing robot. With plastic construction and colored in bright yellow, the DC gear motor measures approx. 2.5 inch long, 0.85 inch wide and 0.7 inch thick . The wheel can be mounted on either side and the gearmotor works well between 4V to 7V (recommended 6 Volts). At a ratio of 1:48 you can get some really good torque at 5 Volts.
